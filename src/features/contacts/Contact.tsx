@@ -7,7 +7,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 function Contact() {
   return (
     <section id="contact" className="bg-light pt-16 pb-24 px-8 relative">
-               <div className="absolute inset-0   skew-y-3 bg-background "></div>
+               <div className="absolute inset-0    skew-y-3 bg-background "></div>
                <div className="relative ">
 
     <h2 className="text-4xl font-bold mb-8 text-center text-light">Contact Us</h2>
