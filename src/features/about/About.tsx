@@ -6,7 +6,7 @@ import { MdPhotoLibrary } from "react-icons/md";
 
 export default function About() {
   return (
-    <section id="about" className="relative bg-background pt-16 pb-24 px-16">
+    <section id="about" className="relative bg-light pt-16 pb-24 px-16">
          <div className="absolute inset-0   skew-y-3 bg-background "></div>
   <div className="relative ">
          

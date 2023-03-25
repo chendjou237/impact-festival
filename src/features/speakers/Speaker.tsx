@@ -45,10 +45,10 @@ export default function Speaker() {
       modules={[Autoplay, Pagination, Navigation]}
       className="mySwiper "
     >
-      <SwiperSlide className="mb-16"><SpeakerCard speaker={'../../../public/speakers/speaker-1.jpg'} /></SwiperSlide>
-      <SwiperSlide><SpeakerCard speaker={'../../../public/speakers/speaker-2.jpg'}/></SwiperSlide>
-      <SwiperSlide><SpeakerCard speaker={'../../../public/speakers/speaker-3.jpg'}/></SwiperSlide>
-      <SwiperSlide><SpeakerCard speaker={'../../../public/speakers/speaker-4.jpg'}/></SwiperSlide>
+      <SwiperSlide className="mb-16"><SpeakerCard speaker={'/static/images/speakers/speaker-1.jpg'} /></SwiperSlide>
+      <SwiperSlide><SpeakerCard speaker={'/static/images/speakers/speaker-2.jpg'}/></SwiperSlide>
+      <SwiperSlide><SpeakerCard speaker={'/static/images/speakers/speaker-3.jpg'}/></SwiperSlide>
+      <SwiperSlide><SpeakerCard speaker={'/static/images/speakers/speaker-4.jpg'}/></SwiperSlide>
     
     </Swiper>
   </div>

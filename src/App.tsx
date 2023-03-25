@@ -5,9 +5,17 @@ import Sponsors from "./features/sponsors/Sponsors";
 import Header from "./features/header/Header";
 import Hero from "./features/Hero/Hero";
 import About from "./features/about/About";
+import Footer from "./features/footer/Footer";
 export default function Home() {
   return (
-    <div>
+    <html>
+      <head>
+        <title>
+          Impact Festival
+        </title>
+      </head>
+      <body>
+      <div>
       <main className="bg-white">
         <Header />
 <Hero />
@@ -18,7 +26,11 @@ export default function Home() {
 
         <Tickets />
         <Contact />
+        <Footer />
       </main>
     </div>
+      </body>
+    </html>
+
   );
 }

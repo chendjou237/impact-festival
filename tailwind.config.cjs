@@ -12,6 +12,7 @@ module.exports = {
         primary: '#daa520',
         heading: '#daa520',
         lightHeading: '#ffffff',
+        light:  '#ffffff',
         paragraph: '#8d8d8dff',
         lightParagraph: '#ffffff',
         hightlitenParagraph: '#7b6020',
@@ -20,6 +21,7 @@ module.exports = {
         lightBackground: '',
         background: '#1b1b1bff',
         navFocus: '#daa520',
+        cardBackground: "#2b2b2b",
       
       }
     },

@@ -13,6 +13,8 @@ export default function Sponsors() {
      <SponsorCard />
      <SponsorCard />
      <SponsorCard />
+     <SponsorCard />
+     <SponsorCard />
     </div>
     </div>
   </section>
