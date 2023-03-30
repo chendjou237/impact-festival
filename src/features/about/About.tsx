@@ -1,10 +1,30 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { IoNewspaper } from "react-icons/io5";
 import { BiCubeAlt } from "react-icons/bi";
 import { IoIosArrowForward } from "react-icons/io";
 import { MdPhotoLibrary } from "react-icons/md";
+import "../../animation.css";
 
 export default function About() {
+  const sectionRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const options = {
+      rootMargin: "-50px 0px",
+    };
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsVisible(entry.isIntersecting);
+    }, options);
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
   return (
     <section id="about" className="relative bg-light pt-16 pb-24 px-16">
          <div className="absolute inset-0   skew-y-3 bg-background "></div>
@@ -12,6 +32,7 @@ export default function About() {
          
     <h2 className="text-4xl font-bold mb-8  text-white">About the Conference</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-evenly">
+         
             <article>
               <p className="text-lg leading-relaxed text-paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit bibendum ante sed porttitor. Ut euismod lobortis augue, ut pellentesque nulla dapibus quis. Fusce feugiat semper dictum. Nunc condimentum arcu id nisl volutpat, ac efficitur nisi ultricies. Aliquam dapibus lectus eget leo suscipit malesuada.
@@ -75,8 +96,8 @@ export default function About() {
 
             </div>
             </aside>
-          </div>
 
+  </div>
   </div>
 
         
