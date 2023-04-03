@@ -4,13 +4,15 @@ import "../../animation.css";
 function Tickets() {
   const sectionRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
-
+var count = 0;
   useEffect(() => {
     const options = {
       rootMargin: "-50px 0px",
     };
+
     const observer = new IntersectionObserver(([entry]) => {
-      setIsVisible(entry.isIntersecting);
+      setIsVisible(count < 1 ?entry.isIntersecting: true);
+      count++
     }, options);
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
@@ -29,7 +31,7 @@ function Tickets() {
         className={`bg-white pt-16 pb-24 px-8 `}
         ref={sectionRef}
       >
-        <div className={ isVisible ? "animate-slide-in" : ""
+        <div className={  isVisible ? "animate-slide-in" : ""
         }>
         <h2 className="text-4xl font-bold mb-4 text-center text-background">
           TICKETS
