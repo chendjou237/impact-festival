@@ -56,22 +56,22 @@ Leave us a message or call us and we'll be glad to help :)</p>
   
   
 </div>
-   <div className="flex items-center justify-center  bg-light rounded-sm  py-8 px-4">
-      <form className="max-w-md mx-auto flex flex-col items-center w- min-w-96 ">
-        <div className="flex space-x-4
-  ">
-        <input type="text" id="name" name="name" placeholder="Your name" className="px-4 py-2 border   mb-6 rounded-md" />
-
-        <input type="tel" id="email" name="phone" placeholder="Your Phone Number" className="px-4 py-2 border  mb-6 rounded-md" />
-        </div>
-        <input type="text" id="subject" name="subject" placeholder="Subject" className="px-4 py-2 border w-full   mb-6 rounded-md" />
+  <div className="flex items-center justify-center bg-light rounded-sm py-8 px-4">
+    <form className="max-w-md mx-auto w-full flex flex-col items-center">
+      <div className="flex space-x-4 w-full">
+        <input type="text" id="name" name="name" placeholder="Your name" className="px-4 py-2 border mb-6 rounded-md w-full" />
   
-  
-        <textarea id="message" placeholder='Enter Message' name="message" rows={6} className="px-4 py-2 border w-full mb-6 rounded-md"></textarea>
-  
-        <button type="submit" className="bg-primary text-white py-2 px-8 rounded-md hover:bg-green-600 transition-colors duration-300 ease-in-out">Send Message</button>
-      </form>
+        <input type="tel" id="email" name="phone" placeholder="Your Phone Number" className="px-4 py-2 border mb-6 rounded-md w-full" />
       </div>
+      <input type="text" id="subject" name="subject" placeholder="Subject" className="px-4 py-2 border w-full mb-6 rounded-md" />
+  
+  
+      <textarea id="message" placeholder='Enter Message' name="message" rows={6} className="px-4 py-2 border w-full mb-6 rounded-md"></textarea>
+  
+      <button type="submit" className="bg-primary text-white py-2 px-8 rounded-md hover:bg-green-600 transition-colors duration-300 ease-in-out">Send Message</button>
+    </form>
+  </div>
+  
 </div>
 
  
