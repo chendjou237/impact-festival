@@ -25,7 +25,7 @@ var count = 0;
   }, []);
 
   return (
-    <div className="App">
+    <div className="">
       <section
         id="tickets"
         className={`bg-white pt-16 pb-24 px-8 `}
@@ -41,7 +41,7 @@ var count = 0;
           Each ticket comes with a bundle of benefits so read the benefits
           carefully before buying :)
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <TicketsCard src="/static/images/tickets/ticket_general.png" />
           <TicketsCard src="/static/images/tickets/ticket_silver.png" />
           <TicketsCard src="/static/images/tickets/ticket_gold.png" />
