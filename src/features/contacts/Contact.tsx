@@ -34,8 +34,10 @@ function Contact() {
     setIsLoading(false);
   }
   return (
-    <section id="contact" className="bg-light pt-16 pb-24 px-8 relative">
-               <div className="absolute inset-0    skew-y-3 bg-background "></div>
+    <section id="contact" className="bg-light pt-16 pb-0 pr-8 relative flex ">
+      <div className="w-8 bg-background">.</div>
+      <div className="flex-grow">
+      <div className="absolute inset-0    skew-y-3 bg-background "></div>
                <div className="relative ">
 
     <h2 className="text-4xl font-bold mb-8 text-center text-light">Contact Us</h2>
@@ -43,7 +45,7 @@ function Contact() {
     <p className="text-lg leading-relaxed text-paragraph text-center mb-2">
     Not sure about something? <br />
 Leave us a message or call us and we'll be glad to help :)</p>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-background">
 <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 mb-8">
   <div className="bg-light flex flex-col items-center py-4 rounded-sm shadow-lg shadow-black">
     <div className=" p-3 rounded-full border-dotted border-2 border-primary">
@@ -105,6 +107,8 @@ Leave us a message or call us and we'll be glad to help :)</p>
  
      
     </div>
+      </div>
+             
   </section>
   
   )

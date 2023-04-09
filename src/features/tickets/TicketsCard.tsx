@@ -17,7 +17,7 @@ export default function TicketsCard(props: TicketProps) {
   return (
     <div className=' shadow-lg   pb-8 rounded-md flex flex-col items-center space-y-4'>
         <img src= {src} alt=""  />
-        <a href={url} className="mt-8 px-8 py-2 bg-button text-white text-lg font-semibold rounded-sm shadow-md hover:text-primary hover:bg-transparent  hover:border hover:border-white ">Buy Now</a>
+        <a href={url} className="mt-8 px-8 py-2 bg-button text-white text-lg font-semibold rounded-lg shadow-md hover:text-primary hover:bg-transparent  hover:border hover:border-white ">Buy Now</a>
     </div>
   )
 }
