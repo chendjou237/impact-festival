@@ -1,4 +1,5 @@
 import React from 'react'
+import Timer from './Timer'
 
 export default function Hero() {
   return (
@@ -12,6 +13,7 @@ export default function Hero() {
       {/* <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase leading-none" style={{ color: "#FFB81C" }}>IM<span className="text-white">237</span></h1>
       <h2 className="text-xl lg:text-3xl mt-6 font-semibold text-white">International Tech Conference</h2>
       button with text "get your ticket now" */}
+      <Timer />
       <a href="#tickets" className="mt-8 px-8 py-4 bg-button text-white text-lg font-semibold rounded-lg shadow-md hover:bg-transparent hover:border hover:border-white">Get Your Ticket Now</a>
     </div>
   </section>

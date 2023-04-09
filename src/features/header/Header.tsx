@@ -51,9 +51,10 @@ export default function Header() {
             </a>
           </li>
           <li className="hidden md:block">
-            <a href="#" className="px-5 py-2 rounded-lg bg-navFocus text-white font-semibold hover:bg-opacity-75 focus:bg-opacity-75">
-              Buy Tickets
-            </a>
+       <a href="#tickets" className="px-5 py-2 rounded-lg bg-navFocus text-white font-semibold hover:bg-opacity-75 focus:bg-opacity-75 transition duration-1000 ease-in-out">
+         Buy Tickets
+       </a>
+       
           </li>
         </ul>
       </nav>

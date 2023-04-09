@@ -13,7 +13,12 @@ export default function Home() {
         <title>
           Impact Festival
         </title>
+
+        <style>
+    
+        </style>
       </head>
+
       <body>
       <div>
       <main className="bg-white">
