@@ -33,12 +33,13 @@ export default function Speaker() {
 
 
     <Swiper
-      spaceBetween={1}
+      spaceBetween={300}
       centeredSlides={true}
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
       }}
+      
       slidesPerView={3}
       pagination={pagination}
       navigation={false}

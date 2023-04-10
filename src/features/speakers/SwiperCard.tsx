@@ -7,7 +7,7 @@ export default function SpeakerCard({img, title, name, facebook,linkedin, twitte
 
 
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center space-x-4 min-w-fit">
  <div className="relative h-80 w-64  text-transparent">
    <img src={img} alt="" className=' rounded-md w-full  h-full object-cover' />
    <div className="absolute opacity-0 rounded-md hover:opacity-100 inset-0 flex  items-end bg-black hover:bg-opacity-50 bg-opacity-0 transition duration-500 ease-in-out">
