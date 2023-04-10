@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+  import React, { useState, useEffect } from 'react';
 import moment from 'moment'; // import moment library for date/time manipulation
 
 export default function Timer() {
@@ -15,23 +15,22 @@ export default function Timer() {
   }, []);
 
   return (
-   <div className="bg-gray-100 pt-4 pb-8 backdrop-blur-lg backdrop-filter bg-opacity-40 rounded-xl">
-     <div className="text-center text-gray-600 text-lg mb-4">Event Start In:</div>
+   <div className="  pt-4 pb-8  rounded-xl">
      <div className="flex justify-center space-x-4">
-       <div className="bg-white rounded-md p-4 shadow-md">
-         <div className="text-3xl font-bold text-primary">{remainingTime.days()}</div>
+       <div className="bg-gray-100 backdrop-blur-lg backdrop-filter bg-opacity-40 rounded-md p-4 shadow-md">
+         <div className="text-3xl font-bold text-white ">{remainingTime.days()}</div>
          <div className="text-sm uppercase text-gray-400">Days</div>
        </div>
-       <div className="bg-white rounded-md p-4 shadow-md">
-         <div className="text-3xl font-bold text-primary">{remainingTime.hours()}</div>
+       <div className="bg-gray-100 backdrop-blur-lg backdrop-filter bg-opacity-40 rounded-md p-4 shadow-md">
+         <div className="text-3xl font-bold text-white">{remainingTime.hours()}</div>
          <div className="text-sm uppercase text-gray-400">Hours</div>
        </div>
-       <div className="bg-white rounded-md p-4 shadow-md">
-         <div className="text-3xl font-bold text-primary">{remainingTime.minutes()}</div>
+       <div className="bg-gray-100 backdrop-blur-lg backdrop-filter bg-opacity-40 rounded-md p-4 shadow-md">
+         <div className="text-3xl font-bold text-white">{remainingTime.minutes()}</div>
          <div className="text-sm uppercase text-gray-400">Minutes</div>
        </div>
-       <div className="bg-white rounded-md p-4 shadow-md">
-         <div className="text-3xl font-bold text-primary">{remainingTime.seconds()}</div>
+       <div className="bg-gray-100 backdrop-blur-lg backdrop-filter bg-opacity-40 rounded-md p-4 shadow-md">
+         <div className="text-3xl font-bold text-white">{remainingTime.seconds()}</div>
          <div className="text-sm uppercase text-gray-400">Seconds</div>
        </div>
      </div>
