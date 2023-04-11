@@ -17,7 +17,7 @@ export default function Hero() {
       button with text "get your ticket now" */}
       <div className="flex w-full h-screen py-24 md:py-0 items-center  space-y-8 space-x-4 flex-col md:flex-row justify-start md:justify-between">
       <div className="flex flex-col items-center sm:items-start">
-      <div className="text-4xl font-bold  mb-8  text-white">
+      <div className="text-4xl font-bold  mb-2 md:mb-8  text-white">
       IMPACT FESTIVAL 2023 in:
       </div>
       <Timer />
