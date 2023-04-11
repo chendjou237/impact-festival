@@ -48,8 +48,8 @@ function Contact() {
     <p className="text-lg leading-relaxed text-paragraph text-center mb-2">
     Not sure about something? <br />
 Leave us a message or call us and we'll be glad to help :)</p>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-background">
-<div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 mb-8">
+<div className="grid grid-cols-1 md:grid-cols-1 gap-4 bg-background">
+{/* <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 mb-8">
   <div className="bg-light flex flex-col items-center py-4 rounded-sm shadow-lg shadow-black">
     <div className=" p-3 rounded-full border-dotted border-2 border-primary">
 
@@ -88,7 +88,7 @@ Leave us a message or call us and we'll be glad to help :)</p>
   </div>
   
   
-</div>
+</div> */}
   <div className="flex items-center justify-center bg-light rounded-sm py-8 px-4">
     <form className="max-w-md mx-auto w-full flex flex-col items-center" onSubmit={handleSubmit}>
       <div className="flex space-x-4 w-full">
