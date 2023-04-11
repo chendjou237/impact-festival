@@ -3,6 +3,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import emailjs from 'emailjs-com';
 import React, { useState } from 'react';
+import Position from "./Position";
 
 
 function Contact() {
@@ -36,9 +37,11 @@ function Contact() {
   return (
     <section id="contact" className="bg-light pt-16 pb-0 pr-8 relative flex ">
       <div className="w-8 bg-background">.</div>
-      <div className="flex-grow">
+        <div className="flex-grow">
+
       <div className="absolute inset-0    skew-y-3 bg-background "></div>
                <div className="relative ">
+        <Position />
 
     <h2 className="text-4xl font-bold mb-8 text-center text-light">Contact Us</h2>
     <hr className="mx-auto mb-8 border-primary border-solid border-2 w-16 rounded-full" />
