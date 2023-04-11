@@ -59,15 +59,15 @@ const Table = () => {
     <div className="flex text-white space-x-8">
         <div className="">
             <p className='text-md font-bold'>Total seat capacity</p>
-            <p className='text-4xl font-bold'>/</p>
+            <p className='text-2xl md:text-4xl font-bold'>/</p>
         </div>
-        <div className="bg-table2 rounded-lg px-12 py-2">
+        <div className="bg-table2 rounded-lg px-12 py-0 md:py-4 ">
             <p className='text-md font-bold'>Total seat Sold</p>
-            <p className='text-4xl font-bold'>520</p>
+            <p className='text-2xl md:text-4xl font-bold'>520</p>
         </div>
         <div className="">
             <p className='text-md font-bold'>Total seats to sell</p>
-            <p className='text-4xl font-bold'>1000</p>
+            <p className='text-2xl md:text-4xl font-bold'>1000</p>
         </div>
     </div>
     </div>

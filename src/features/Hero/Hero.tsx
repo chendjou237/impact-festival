@@ -21,10 +21,11 @@ export default function Hero() {
       IMPACT FESTIVAL 2023 in:
       </div>
       <Timer />
-      <a href="#tickets" className="mt-8 px-8 py-4 bg-button text-white text-lg font-semibold rounded-lg shadow-md hover:bg-transparent hover:border hover:border-white">Get Your Ticket Now</a>
+      <a href="#tickets" className="mt-0 md:mt-8 px-8 py-4 bg-button text-white text-lg font-semibold rounded-lg shadow-md hover:bg-transparent hover:border hover:border-white">Get Your Ticket Now</a>
 </div>
 
 <Table />
+<div className="h-0"></div>
       </div>
       
     </div>
