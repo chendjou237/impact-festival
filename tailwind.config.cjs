@@ -22,9 +22,16 @@ module.exports = {
         background: '#1b1b1bff',
         navFocus: '#daa520',
         cardBackground: "#2b2b2b",
-      
+        table1: "#B9F2FF",
+        table2: "#C2911D",
+        table3: "#C6C6C6",
+        table4: "#364649"
+      },
+      fontFamily:{
+        cinzel: ['Cinzel']
       }
     },
   },
+  
   plugins: [],
 }

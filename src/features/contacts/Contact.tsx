@@ -3,6 +3,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import emailjs from 'emailjs-com';
 import React, { useState } from 'react';
+import Position from "./Position";
 
 
 function Contact() {
@@ -36,17 +37,19 @@ function Contact() {
   return (
     <section id="contact" className="bg-light pt-16 pb-0 pr-8 relative flex ">
       <div className="w-8 bg-background">.</div>
-      <div className="flex-grow">
+        <div className="flex-grow">
+
       <div className="absolute inset-0    skew-y-3 bg-background "></div>
                <div className="relative ">
+        <Position />
 
     <h2 className="text-4xl font-bold mb-8 text-center text-light">Contact Us</h2>
     <hr className="mx-auto mb-8 border-primary border-solid border-2 w-16 rounded-full" />
     <p className="text-lg leading-relaxed text-paragraph text-center mb-2">
     Not sure about something? <br />
 Leave us a message or call us and we'll be glad to help :)</p>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-background">
-<div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 mb-8">
+<div className="grid grid-cols-1 md:grid-cols-1 gap-4 bg-background">
+{/* <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 mb-8">
   <div className="bg-light flex flex-col items-center py-4 rounded-sm shadow-lg shadow-black">
     <div className=" p-3 rounded-full border-dotted border-2 border-primary">
 
@@ -85,7 +88,7 @@ Leave us a message or call us and we'll be glad to help :)</p>
   </div>
   
   
-</div>
+</div> */}
   <div className="flex items-center justify-center bg-light rounded-sm py-8 px-4">
     <form className="max-w-md mx-auto w-full flex flex-col items-center" onSubmit={handleSubmit}>
       <div className="flex space-x-4 w-full">
