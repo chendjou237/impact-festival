@@ -3,7 +3,7 @@ import Timer from './Timer'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen pt-20  pb-12 lg:pt-48" style={{ backgroundColor: "#FBF5F3" }}>
+    <section id='hero' className="relative min-h-screen pt-20  pb-12 lg:pt-48" style={{ backgroundColor: "#FBF5F3" }}>
     <img
       src="/impactlogo.png"
       className="absolute top-0 left-0 w-full h-full object-cover"

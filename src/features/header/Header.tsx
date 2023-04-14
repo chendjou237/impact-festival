@@ -5,7 +5,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed flex justify-between items-center w-full px-8 py-6 bg-background text-white z-10 shadow-md shadow-black">
+    <header  className="fixed flex justify-between items-center w-full px-8 py-6 bg-background text-white z-10 shadow-md shadow-black">
       <a href="#" className="text-xl font-bold">
         IMPACT <span className="text-navFocus">FESTIVAL</span>
       </a>

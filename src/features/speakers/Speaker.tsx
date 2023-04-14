@@ -21,7 +21,7 @@ export default function Speaker() {
       };
   return (
 
-    <section className="relative">
+    <section className="relative" id="speaker">
    
     <div className="absolute inset-0   skew-y-3  bg-white"></div>
     <div className="relative ">

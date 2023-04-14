@@ -6,6 +6,7 @@ import Header from "./features/header/Header";
 import Hero from "./features/Hero/Hero";
 import About from "./features/about/About";
 import Footer from "./features/footer/Footer";
+import Fab from "./features/Fab";
 export default function Home() {
   return (
     <html>
@@ -32,6 +33,7 @@ export default function Home() {
         <Tickets />
         <Contact />
         <Footer />
+        <Fab />
       </main>
     </div>
       </body>
