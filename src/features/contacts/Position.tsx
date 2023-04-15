@@ -14,7 +14,7 @@ export default function Position() {
         };
       }, []);
   return (
-    <div className='mb-16'>
+    <div id='position' className='mb-16'>
         <div className="">
             <p className="text-4xl font-bold mb-8 text-center text-light font-cinzel"   >Position</p>
             <hr className="mx-auto mb-8 border-primary border-solid border-2 w-16 rounded-full" />

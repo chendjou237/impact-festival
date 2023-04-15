@@ -36,6 +36,11 @@ export default function Header() {
             </a>
           </li>
           <li>
+            <a href="#speaker" className="hover:text-yellow-500">
+              Speakers
+            </a>
+          </li>
+          <li>
             <a href="#sponsors" className="hover:text-yellow-500">
               Sponsors
             </a>
@@ -43,6 +48,11 @@ export default function Header() {
           <li>
             <a href="#tickets" className="hover:text-yellow-500">
               Tickets
+            </a>
+          </li>
+          <li>
+            <a href="#position" className="hover:text-yellow-500">
+              Position
             </a>
           </li>
           <li>
