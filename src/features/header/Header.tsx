@@ -24,7 +24,7 @@ export default function Header() {
 
       {/* Navigation menu */}
       <nav className={`${isOpen ? "block" : "hidden"} md:block`}>
-        <ul className="flex space-x-4 md:space-x-8 md:ml-6">
+        <ul className="flex space-x-4 md:space-x-8 md:ml-6 font-cinzel">
           <li className="md:hidden">
             <a href="#" className="px-5 py-2 rounded-lg bg-navFocus text-white font-semibold hover:bg-opacity-75 focus:bg-opacity-75">
               Home
@@ -60,7 +60,7 @@ export default function Header() {
               Contact Us
             </a>
           </li>
-          <li className="hidden md:block">
+          <li className="hidden md:block font-alexandra">
        <a href="#tickets" className="px-5 py-2 rounded-lg bg-navFocus text-white font-semibold hover:bg-opacity-75 focus:bg-opacity-75 transition duration-1000 ease-in-out">
          Buy Tickets
        </a>
