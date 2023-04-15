@@ -32,13 +32,13 @@ export default function Position() {
         </div>
         <div className="">
             <p className='font-bold text-lg font-cinzel'>Email Us</p>
-            <ul className='underline pl-8 list-disc font-biko'>
+            <ul className='underline pl-8  font-biko'>
                 <li>weareleadersnation@gmail.com</li>
             </ul>
         </div>
         <div className=" ">
             <p className='font-bold text-lg font-cinzel'>Call Us</p>
-                <ul className='underline list-disc pl-8 font-biko'>    
+                <ul className='underline  pl-8 font-biko'>    
                     <li>672319243</li>
                     <li>695932632</li>
                     <li>652573659</li>

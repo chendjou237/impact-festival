@@ -1,11 +1,11 @@
-import React from 'react'
-import { useState } from 'react'
+import React from 'react';
+import { useState } from 'react';
 
-export default function Header() {
+const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header  className="fixed flex justify-between items-center w-full px-8 py-6 bg-background text-white z-10 shadow-md shadow-black">
+    <header className="fixed flex justify-between items-center w-full px-8 py-6 bg-background text-white z-10 shadow-md shadow-black">
       <a href="#" className="text-xl font-bold">
         IMPACT <span className="text-navFocus">FESTIVAL</span>
       </a>
@@ -23,52 +23,52 @@ export default function Header() {
       </div>
 
       {/* Navigation menu */}
-      <nav className={`${isOpen ? "block" : "hidden"} md:block`}>
-        <ul className="flex space-x-4 md:space-x-8 md:ml-6 font-cinzel">
+      <nav className={`md:flex md:items-center md:w-auto w-full ${isOpen ? "block" : "hidden"} font-cinzel`}>
+        <ul className="md:flex-row md:flex space-y-4 md:space-y-0 list-none items-center">
           <li className="md:hidden">
             <a href="#" className="px-5 py-2 rounded-lg bg-navFocus text-white font-semibold hover:bg-opacity-75 focus:bg-opacity-75">
               Home
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-yellow-500">
+            <a href="#about" className="block md:inline-block mt-4 md:mt-0 mr-6 hover:text-yellow-500">
               About
             </a>
           </li>
           <li>
-            <a href="#speaker" className="hover:text-yellow-500">
+            <a href="#speaker" className="block md:inline-block mt-4 md:mt-0 mr-6 hover:text-yellow-500">
               Speakers
             </a>
           </li>
           <li>
-            <a href="#sponsors" className="hover:text-yellow-500">
+            <a href="#sponsors" className="block md:inline-block mt-4 md:mt-0 mr-6 hover:text-yellow-500">
               Sponsors
             </a>
           </li>
           <li>
-            <a href="#tickets" className="hover:text-yellow-500">
+            <a href="#tickets" className="block md:inline-block mt-4 md:mt-0 mr-6 hover:text-yellow-500">
               Tickets
             </a>
           </li>
           <li>
-            <a href="#position" className="hover:text-yellow-500">
+            <a href="#position" className="block md:inline-block mt-4 md:mt-0 mr-6 hover:text-yellow-500">
               Position
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-yellow-500">
+            <a href="#contact" className="block md:inline-block mt-4 md:mt-0 mr-6 hover:text-yellow-500">
               Contact Us
             </a>
           </li>
           <li className="hidden md:block font-alexandra">
-       <a href="#tickets" className="px-5 py-2 rounded-lg bg-navFocus text-white font-semibold hover:bg-opacity-75 focus:bg-opacity-75 transition duration-1000 ease-in-out">
-         Buy Tickets
-       </a>
-       
+            <a href="#tickets" className="px-5 py-2 rounded-lg bg-navFocus text-white font-semibold hover:bg-opacity-75 focus:bg-opacity-75 transition duration-1000 ease-in-out">
+              Buy Tickets
+            </a>
           </li>
         </ul>
       </nav>
-      
     </header>
-  )
-}
+  );
+};
+
+export default Header;
