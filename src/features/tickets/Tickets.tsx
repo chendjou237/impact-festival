@@ -33,19 +33,19 @@ var count = 0;
       >
         <div className={  isVisible ? "animate-slide-in" : ""
         }>
-        <h2 className="text-4xl font-bold mb-4 text-center text-background">
+        <h2 className="text-4xl font-bold mb-4 text-center text-background font-cinzel">
           TICKETS
         </h2>
         <hr className="mx-auto mb-8 border-primary border-solid border-2 w-16 rounded-full" />
-        <p className="text-lg leading-relaxed text-center mb-2">
-          Each ticket comes with a bundle of benefits so read the benefits
-          carefully before buying :)
+        <p className="text-lg leading-relaxed text-center mb-2 font-alexandra">
+        Chaque billet est accompagné d'un ensemble d'avantages, alors lisez les avantages
+          soigneusement avant d'acheter :)
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <TicketsCard phone="+237652573659" message="hello i would like a general ticket " src="/static/images/tickets/ticket_general.png" />
-          <TicketsCard phone="+237652573659" message="hello i would like a silver ticket " src="/static/images/tickets/ticket_silver.png" />
-          <TicketsCard phone="+237652573659" message="hello i would like a gold ticket " src="/static/images/tickets/ticket_gold.png" />
-          <TicketsCard phone="+237652573659" message="hello i would like a diamond ticket " src="/static/images/tickets/ticket_diamond.png" />
+          <TicketsCard phone="+237652573659" message="hello i would like a general ticket " src="/static/images/tickets/ticket_general.png" color="general"/>
+          <TicketsCard phone="+237652573659" message="hello i would like a silver ticket " src="/static/images/tickets/ticket_silver.png" color="silver"/>
+          <TicketsCard phone="+237652573659" message="hello i would like a gold ticket " src="/static/images/tickets/ticket_gold.png"  color="gold"/>
+          <TicketsCard phone="+237652573659" message="hello i would like a diamond ticket " src="/static/images/tickets/ticket_diamond.png" color="diamond"/>
           
     
           </div>    </div>

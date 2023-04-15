@@ -15,13 +15,13 @@ export default function Hero() {
       <h2 className="text-xl lg:text-3xl mt-6 font-
       semibold text-white">International Tech Conference</h2>
       button with text "get your ticket now" */}
-      <div className="flex w-full h-screen py-24 md:py-0 items-center  space-y-8 space-x-4 flex-col md:flex-row justify-start md:justify-between">
-      <div className="flex flex-col items-center sm:items-start">
-      <div className="text-4xl font-bold  mb-2 md:mb-8  text-white">
+      <div className="flex w-full h-screen py-24 lg:py-0 items-center  space-y-8 space-x-4 flex-col lg:flex-row justify-start lg:justify-between">
+      <div className="flex flex-col items-center lg:items-start">
+      <div className="text-4xl font-bold font-cinzel mb-2 lg:mb-2  text-white">
       IMPACT FESTIVAL 2023 in:
       </div>
       <Timer />
-      <a href="#tickets" className="mt-0 md:mt-8 px-8 py-4 bg-button text-white text-lg font-semibold rounded-lg shadow-md hover:bg-transparent hover:border hover:border-white">Get Your Ticket Now</a>
+      <a href="#tickets"  className="mt-0 font-biko md:mt-8 px-8 py-4 bg-button text-white text-lg font-semibold rounded-lg shadow-md hover:bg-transparent hover:border hover:border-white">Get Your Ticket Now</a>
 </div>
 
 <Table />

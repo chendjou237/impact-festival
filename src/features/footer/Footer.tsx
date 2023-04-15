@@ -12,9 +12,10 @@ export default function Footer() {
   return (
     <div className="flex flex-col md:flex-row items-center py-8 space-y-2 px-16 md:justify-between bg-background">
     <div className="">
-      <h3 className='text-light'>© Copyright <span className='text-primary font-bold'>Impact Festival</span> . All Rights Reserved
+      <h3 className='text-light font-cinzel'>© Copyright <span className='text-primary font-bold font-alexandra'>Impact Festival</span> . All Rights Reserved
 </h3>
-      <p className='text-light text-center md:text-left'>Designed by <span className='text-primary font-bold'><a href="https://chendjou-honore.web.app">Chendjou Honore</a>
+      <p className='text-light text-center md:text-left font-cinzel'>Designed by <span className='text-primary font-bold font-alexandra'><a href="https://chendjou-honore.web.app">Chendjou Honore</a>
+</span> and <span className='text-primary font-bold font-alexandra'><a href="https://twitter.com/ChrisAFR0TECH" target='_'>chrisAfrotech</a>
 </span>
 </p>
     </div>

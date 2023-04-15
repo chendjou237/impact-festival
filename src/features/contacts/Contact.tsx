@@ -43,9 +43,9 @@ function Contact() {
                <div className="relative ">
         <Position />
 
-    <h2 className="text-4xl font-bold mb-8 text-center text-light">Contact Us</h2>
+    <h2 className="text-4xl font-bold mb-8 text-center text-light font-cinzel">Contact Us</h2>
     <hr className="mx-auto mb-8 border-primary border-solid border-2 w-16 rounded-full" />
-    <p className="text-lg leading-relaxed text-paragraph text-center mb-2">
+    <p className="text-lg leading-relaxed text-paragraph text-center mb-2 font-alexandra">
     Not sure about something? <br />
 Leave us a message or call us and we'll be glad to help :)</p>
 <div className="grid grid-cols-1 md:grid-cols-1 gap-4 bg-background">

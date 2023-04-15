@@ -12,8 +12,8 @@ export default function SpeakerCard({img, title, name, facebook,linkedin, twitte
    <img src={img} alt="" className=' rounded-md w-full  h-full object-cover' />
    <div className="absolute opacity-0 rounded-md hover:opacity-100 inset-0 flex  items-end bg-black hover:bg-opacity-50 bg-opacity-0 transition duration-500 ease-in-out">
      <div className="mx-auto text-white text-center p-4 pb-8 ">
-<h3 className="text-lg font-bold ">{name}</h3>
-       <p className="text-sm text-primary font-bold">{title}</p>
+<h3 className="text-lg font-bold font-cinzel">{name}</h3>
+       <p className="text-sm text-primary font-bold font-alexandra">{title}</p>
      </div>
    </div>
  </div>
