@@ -2,7 +2,7 @@
 import moment from 'moment'; // import moment library for date/time manipulation
 
 export default function Timer() {
-  const [endTime, setEndTime] = useState(moment('2023-04-30T00:00:00')); // set the end time for your event
+  const [endTime, setEndTime] = useState(moment('2023-07-28T00:00:00')); // set the end time for your event
 
   // calculate the remaining time until the event ends
   const [remainingTime, setRemainingTime] = useState(moment.duration(endTime.diff(moment())));
@@ -18,7 +18,7 @@ export default function Timer() {
    <div className="  pt-4 pb-8  rounded-xl">
      <div className="flex justify-center space-x-4">
        <div className="bg-gray-100 backdrop-blur-lg backdrop-filter bg-opacity-40 rounded-md p-4 shadow-md">
-         <div className="text-3xl font-bold text-white ">{remainingTime.days()}</div>
+         <div className="text-3xl font-bold text-white ">{remainingTime.asDays().toPrecision(2)}</div>
          <div className="text-sm uppercase text-gray-400">Days</div>
        </div>
        <div className="bg-gray-100 backdrop-blur-lg backdrop-filter bg-opacity-40 rounded-md p-4 shadow-md">
