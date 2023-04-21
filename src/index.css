@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "alexandra";
+    src: url("/static/fonts/alexandra/Alexandra.otf");
+  }
+  
+  @font-face {
+    font-family: "biko";
+    src: url("/static/font/biko/Biko_Regular.otf");
+  }
+
+
+  @font-face {
+    font-family: "cinzel";
+    src: url("/static/font/cinzel/cinzel.ttf");
+  }
