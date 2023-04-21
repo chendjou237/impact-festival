@@ -1,19 +1,21 @@
 import React from 'react';
 import { BiDiamond } from 'react-icons/bi';
 import { ReactSVG } from "react-svg";
-import diamond from "./diamond.svg"
-import silver from "./silver.svg"
-import general from "./general.svg"
-import gold from "./gold.svg"
+import diamond from "../../assets/diamond.svg"
+import silver from "../../assets/silver.svg"
+import general from "../../assets/general.svg"
+import gold from "../../assets/gold.svg"
 
 const Table = () => {
   return (
     <div className="flex flex-col items-center space-y-8">
-    <div className="grid grid-cols-4 gap-4 md:gap-12 min-w-98">
+    <div className="grid grid-cols-4 gap-x-3 gap-y-3 md:gap-x-12 md:gap-y-6  ">
+        <h2 className='text-white font-bold 
+         text-lg font-cinzel '>Ticket Type</h2>
         <h2 className='text-white font-bold
-         text-lg'>Ticket Type</h2>
+         text-lg font-cinzel'>Ticket Sold</h2>
         <h2 className='text-white font-bold
-         text-lg'>Ticket Sold</h2>
+         text-lg font-cinzel'>Ticket Left</h2>
         <h2 className='text-white font-bold
          text-lg'>Ticket Left</h2>
         <h2 className='text-white font-bold
@@ -57,17 +59,17 @@ const Table = () => {
         
     </div>
     <div className="flex text-white space-x-8">
-        <div className="">
+        <div className="font-cinzel">
             <p className='text-md font-bold'>Total seat capacity</p>
-            <p className='text-2xl md:text-4xl font-bold'>/</p>
+            <p className='text-2xl md:text-4xl font-bold text-primary sm:text-white'>/</p>
         </div>
-        <div className="bg-table2 rounded-lg px-12 py-0 md:py-4 ">
+        <div className="bg-gold rounded-lg px-12 py-0 md:py-4 font-alexandra">
             <p className='text-md font-bold'>Total seat Sold</p>
-            <p className='text-2xl md:text-4xl font-bold'>520</p>
+            <p className='text-2xl md:text-4xl font-bold ' >520</p>
         </div>
-        <div className="">
+        <div className="font-cinzel">
             <p className='text-md font-bold'>Total seats to sell</p>
-            <p className='text-2xl md:text-4xl font-bold'>1000</p>
+            <p className='text-2xl md:text-4xl font-bold text-primary sm:text-white'>1000</p>
         </div>
     </div>
     </div>
