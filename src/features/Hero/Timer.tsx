@@ -2,7 +2,7 @@
 import moment from 'moment'; // import moment library for date/time manipulation
 
 export default function Timer() {
-  const [endTime, setEndTime] = useState(moment('2023-07-28T00:00:00')); // set the end time for your event
+  const [endTime, setEndTime] = useState(moment('2023-07-27T00:00:00')); // set the end time for your event
 
   // calculate the remaining time until the event ends
   const [remainingTime, setRemainingTime] = useState(moment.duration(endTime.diff(moment())));
