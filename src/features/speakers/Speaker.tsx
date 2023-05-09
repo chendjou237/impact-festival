@@ -59,9 +59,9 @@ export default function Speaker() {
       modules={[Autoplay, Pagination, Navigation]}
       className=""
     >
-      <SwiperSlide><SpeakerCard img={'/static/images/speakers/wabo.png'} facebook="https://www.facebook.com/" instagram="https://www.instagram.com/" linkedin="https://www.linkedin.com/" twitter="https://twitter.com/?lang=en" name="Wabo Collins" title="Founder of Iphone Cameroon" /></SwiperSlide>
-      <SwiperSlide><SpeakerCard img={'/static/images/speakers/kyria.png'} facebook="https://www.facebook.com/" instagram="https://www.instagram.com/" linkedin="https://www.linkedin.com/" twitter="https://twitter.com/?lang=en" name="Kyria Chendjou" title="Mentors Leaders Nation"/></SwiperSlide>
-      <SwiperSlide><SpeakerCard img={'/static/images/speakers/eunice.png'} facebook="https://www.facebook.com/" instagram="https://www.instagram.com/" linkedin="https://www.linkedin.com/" twitter="https://twitter.com/?lang=en" name="Eunice Ajim" title="African Tech Startup Investor"/></SwiperSlide>
+      <SwiperSlide><SpeakerCard img={'/static/images/speakers/wabo.png'} facebook="https://www.facebook.com/wabocollince  " instagram="https://www.instagram.com/euniceajim/" linkedin="https://www.linkedin.com/" twitter="https://twitter.com/KyriaChendjou" name="Wabo Collins" title="Founder of Iphone Cameroon" /></SwiperSlide>
+      <SwiperSlide><SpeakerCard img={'/static/images/speakers/kyria.png'} facebook="https://www.facebook.com/kyria.jackson.77" instagram="https://www.instagram.com/wabocolincs/" linkedin="https://www.linkedin.com/in/chendjou-kyria-8a9370173/" twitter="https://twitter.com/euniceajim" name="Kyria Chendjou" title="Mentors Leaders Nation"/></SwiperSlide>
+      <SwiperSlide><SpeakerCard img={'/static/images/speakers/eunice.png'} facebook="https://www.facebook.com/euniceajim" instagram="https://www.instagram.com/kyria_chendjou/" linkedin="https://www.linkedin.com/in/euniceajim/" twitter="https://twitter.com/?lang=en" name="Eunice Ajim" title="African Tech Startup Investor"/></SwiperSlide>
     
     </Swiper>
   </div>
