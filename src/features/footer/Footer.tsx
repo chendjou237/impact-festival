@@ -14,9 +14,8 @@ export default function Footer() {
     <div className="">
       <h3 className='text-light font-cinzel'>© Copyright <span className='text-primary font-bold font-alexandra'>Impact Festival</span> . All Rights Reserved
 </h3>
-      <p className='text-light text-center md:text-left font-cinzel'>Designed by <span className='text-primary font-bold font-alexandra'><a href="https://chendjou-honore.web.app">Chendjou Honore</a>
-</span> and <span className='text-primary font-bold font-alexandra'><a href="https://twitter.com/ChrisAFR0TECH" target='_'>chrisAfrotech</a>
-</span>
+      <p className='text-light text-center md:text-left font-cinzel'>Designed by <span className='text-primary font-bold font-alexandra'><a href="https://xenora.org">Xenora</a>
+</span> 
 </p>
     </div>
     <div className="flex space-x-4">
